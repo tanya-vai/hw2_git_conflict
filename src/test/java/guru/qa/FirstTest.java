@@ -11,7 +11,7 @@ public class FirstTest {
     @Test
     void clickTest() {
         open("https://www.google.com/");
-        $(By.name("q")).sendKeys("Hello");
+        $(By.name("q")).sendKeys("Hello, I'm branch number 2");
 
     }
 }
